@@ -1,7 +1,13 @@
 class FizzBuzz
-
   def check(value)
-    return value
+    if value % 15 == 0
+      'fizz-buzz'
+    elsif value % 3 == 0
+      'fizz'
+    elsif vale % 5 == 0
+      'buzz'
+    else
+      value
+    end
   end
-
 end
